@@ -16,6 +16,8 @@ This repository contains the official implementation and benchmark code for the 
 
 ## 💡 Introduction
 
+![pipeline](./assets/overview.pdf)
+
 Autoregressive video diffusion models have demonstrated remarkable progress, yet they remain bottlenecked by intractable linear KV-cache growth, temporal repetition, and compounding errors during long-video generation. 
 
 To address these challenges, we present **PackForcing**, a unified framework that efficiently manages the generation history through a novel three-partition KV-cache strategy:
