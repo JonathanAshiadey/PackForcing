@@ -1,5 +1,3 @@
-***
-
 <div align="center">
 
 ## PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference
@@ -30,9 +28,8 @@ This repository contains the official implementation and benchmark code for the 
 
 ## 📝 TODO List
 
-- [ ] Release inference code
+- [ ] Release train/inference code
 - [ ] Release pre-trained model weights
-- [ ] Release VBench evaluation scripts
 
 ## 📖 Citation
 
@@ -50,4 +47,3 @@ If you find this project helpful, please consider citing our work:
 }
 ```
 
-***
