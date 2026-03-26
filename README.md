@@ -16,7 +16,7 @@ This repository contains the official implementation and benchmark code for the 
 
 ## 💡 Introduction
 
-![pipeline](./assets/overview.pdf)
+![pipeline](./assets/overview.jpg)
 
 Autoregressive video diffusion models have demonstrated remarkable progress, yet they remain bottlenecked by intractable linear KV-cache growth, temporal repetition, and compounding errors during long-video generation. 
 
