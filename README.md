@@ -30,7 +30,9 @@ Empowered by this principled hierarchical context compression and a continuous T
 
 ## 🎥 Generation Result
 
-https://github.com/ShandaAI/PackForcing/blob/main/assets/c2cc6abde8b8de5bb3a82681cb840492.mp4
+<video src="assets/c2cc6abde8b8de5bb3a82681cb840492.mp4" controls="controls" width="100%" muted="muted">
+  您的浏览器不支持 video 标签。
+</video>
 
 ## 📝 TODO List
 
